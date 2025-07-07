@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.btns {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: #fafafa;
+
+}
+
+button:hover {
+  background: #e6e6e6;
+}
+
+#results p {
+  margin: 0.4rem 0;
+  font-weight: 600;
+}

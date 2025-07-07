@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors Niddle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Rock • Paper • Scissors • Niddle</h1>
+
+  <div class="btns">
+    <button onclick="playGame('rock')">🪨 Rock</button>
+    <button onclick="playGame('paper')">📄 Paper</button>
+    <button onclick="playGame('scissors')">✂️ Scissors</button>
+    <button onclick="playGame('niddle')">✨ Niddle</button>
+  </div>
+
+  <div id="results">
+    <p id="player-choice">Your Choice: —</p>
+    <p id="computer-choice">Computer’s Choice: —</p>
+    <p id="winner">—</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
